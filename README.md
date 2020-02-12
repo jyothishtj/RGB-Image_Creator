@@ -1,5 +1,28 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Logic used for Creating the RGB App
+
+1. Iterate through the values of red,green and blue by the step  and created a array of objects(with Red, Green and Blue)- The utility Function- rgbGraph
+
+2. Created a reference to html element "Canvas" using useRef and wrote the logic in the useEffect hook for displaying in the page render/rerender
+
+3.Started with a random color(using the randInt Utility function).
+
+4. Selected a pixel at the middle of the canvas
+
+5. Filled the pixel with the random color
+
+6.Selected the adjacement pixels and spliced another random color and placed into the canvas(based on an interval).
+
+## ScreenShot
+
+https://github.com/jyothishtj/RGB-Image_Creator/issues/1#issue-563238507
+
+
+## How to execute the App
+
+Download/Clone the App execute the command "npm install" to install the modules from package.json. Once the installation is completed and all modules are available in node_modules folder, run rpm start to execute the application.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -37,32 +60,5 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
