@@ -1,0 +1,43 @@
+a {
+    color: white;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background-color:LimeGreen;
+    padding: 20px 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  a:hover {
+    background:LightGreen;
+  }
+  
+    .navigation .user {
+       flex-basis: 50%;
+    }
+  
+    .main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 3em 1.5em;
+   }
+   
+   .navigation ul {
+      border: 1px solid LimeGreen;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+   }
+   
+   .navigation li {
+      flex: 3;    
+   }
+   
+   .navigation .user {
+      flex: 1;
+   }
+   
+  
